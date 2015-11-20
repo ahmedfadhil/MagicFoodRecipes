@@ -1,28 +1,22 @@
-Food Recipes with Rails
+testing specs for recipes:
+name: string
+summary: text
+desciption: text
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- name must be present
+- name must be between 5 characters and less than 100 characters
+- summary must be present
+- summary must be between 10 characters and less than 150 characters
+- description must be present
+- desciption must be between 20 and 500 characters
+- chef_id must be present
 
-Things you may want to cover:
+testing specs for chefs:
+chefname: string
+email: string
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-*
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+- chefname must be present
+- chefname must be between 3 characters and less than 40 characters
+- email must be present
+- email must be unique (since we'll use this for logins later)
+- email must be valid
