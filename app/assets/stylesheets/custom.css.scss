@@ -1,4 +1,4 @@
-$navbar-default-bg: #312312;
+$navbar-default-bg: #F18D05;
 $light-orange: #ff8c00;
 $navbar-default-color: $light-orange;
 
@@ -16,7 +16,16 @@ $navbar-default-color: $light-orange;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+
+
+
 }
+
+ img{
+   width: 90px;
+   height: 90px;
+ }
+
 
 #logo:hover {
   color: white;
@@ -27,7 +36,7 @@ body {
   padding-top: 80px;
 }
 
-.nav-item {
+.nav_item {
   margin-left: 25px;
   float: right;
   margin-top: 20px;

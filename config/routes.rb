@@ -14,4 +14,15 @@ Rails.application.routes.draw do
       post 'like'
     end
   end
+  resources :chefs
+
+
+
+  get '/register', to: 'chefs#new'
+  get '/chefs/:id', to: 'chefs#show'
+
+  get '/login', to: 'logins#new'
+  post '/login', to: 'logins#create'
+  get '/logout', to: 'logins#destroy'
+
 end

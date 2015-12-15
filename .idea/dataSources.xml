@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="4107179665">
+  <component name="DataSourceManagerImpl" format="xml" hash="152831044">
     <data-source source="LOCAL" name="Rails MagicFoodRecipes: development" uuid="2a5e82f9-da73-4651-9b2c-e52175c89af7">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
