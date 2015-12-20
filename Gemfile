@@ -22,6 +22,9 @@ gem 'bootstrap-will_paginate', '0.0.10'
 # Bcrypt gem
 gem 'bcrypt', '~> 3.1.7'
 
+# Fog gem
+gem 'fog', '~> 1.36'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

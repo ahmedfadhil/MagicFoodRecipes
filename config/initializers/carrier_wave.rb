@@ -1,11 +1,11 @@
-# Be sure to restart your server when you modify this file.
+if Rails.env.production?
+  CarrierWave.configure do |config|
+    {
+        :provider => 'AWS',
+        :aws_access_key_id => ENV['S3_ACCESS_KEY'],
+        :aws_secret_access_key => ENV['S3_SECRET_KEY']
+    }
+    config.fog_directory = ENV['S3_BUCKET']
+  end
+end
 
-# Version of your assets, change this if you want to expire all your assets.
-Rails.application.config.assets.version = '1.0'
-
-# Add additional assets to the asset load path
-# Rails.application.config.assets.paths << Emoji.images_path
-
-# Precompile additional assets.
-# application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-# Rails.application.config.assets.precompile += %w( search.js )
