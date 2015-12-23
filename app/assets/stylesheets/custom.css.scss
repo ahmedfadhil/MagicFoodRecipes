@@ -6,8 +6,8 @@ $navbar-default-color: $light-orange;
 @import "bootstrap";
 
 #logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   floar: left;
   margin-right: 10px;
   font-size: 2em;
@@ -16,16 +16,12 @@ $navbar-default-color: $light-orange;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-
 }
 
- img{
-   width: 90px;
-   height: 80px;
-   float: left;
-
- }
-
+img#logo {
+  width: 70px;
+  height: 70px;
+}
 
 #logo:hover {
   color: white;
@@ -38,6 +34,12 @@ body {
 
 .nav_item {
   margin-left: 25px;
+  float: right;
+  margin-top: 20px;
+}
+
+.nav_ul_item {
+  padding-left: 25px;
   float: right;
   margin-top: 20px;
 }
@@ -98,13 +100,14 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto !important;
 }
-span.picture{
-margin-top: 10px;
-  input{
-    border:0;
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
   }
 }
 
-.show_recipe{
+.show_recipe {
   margin: 10px 10px 10px 10px;
 }
